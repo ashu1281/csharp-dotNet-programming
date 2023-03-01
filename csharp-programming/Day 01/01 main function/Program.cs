@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace csharp_programming
-{
-    internal class Program
-    {
-        public static int Main(string[] args)
+﻿namespace csharp_programming {
+    internal class Program {
+        public static int Main(string[] args) // an entry point function
         {
             Console.WriteLine("Hello, World");
-            return 101;
+            return 10000;
         }
     }
 }
