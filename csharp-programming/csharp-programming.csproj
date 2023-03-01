@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>csharp_programming</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Day 01\01 main function\**" />
+    <EmbeddedResource Remove="Day 01\01 main function\**" />
+    <None Remove="Day 01\01 main function\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Day 01\02 top level statements\CodeFile02.cs" />
+  </ItemGroup>
+
+</Project>
