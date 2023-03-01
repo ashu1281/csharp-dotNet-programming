@@ -8,14 +8,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
   <ItemGroup>
-    <Compile Remove="Day 01\01 main function\**" />
-    <EmbeddedResource Remove="Day 01\01 main function\**" />
-    <None Remove="Day 01\01 main function\**" />
+    <Compile Remove="Day 01\**" />
+    <EmbeddedResource Remove="Day 01\**" />
+    <None Remove="Day 01\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Day 01\02 top level statements\CodeFile02.cs" />
+    <Compile Include="Day 01\13 string interpolation\CodeFile01.cs" />
   </ItemGroup>
 
 </Project>
