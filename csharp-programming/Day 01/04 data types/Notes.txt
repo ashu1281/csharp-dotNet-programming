@@ -1,0 +1,34 @@
+﻿
+                                                                   CTS
+                                                                    *
+                                            ***********************************************
+                                            *                                             *
+                                       value types                                reference types 
+                                            *                                             *
+     **********************************************************************           ************
+     *                           *              *           *             *           *          *   
+  integer                 floating point     decimal     boolean     character     object     string
+  types                   types              type        type        type          type       type
+  sbyte, byte             double, float      decimal     bool        char          object     string
+  short, int, long
+  ushort, uint, ulong
+
+Value type: A value type variable holds the data within its own memory allocation.
+Reference type: A reference type variable refers to an object in some external memory space.
+
+CTS types
+- System.SByte as sbyte
+- System.Byte as byte
+- System.Int16 as short
+- System.Int32 as int
+- System.Int64 as long
+- System.UInt16 as ushort
+- System.UInt32 as uint
+- System.UInt64 as ulong
+- System.Single as float
+- System.Double as double
+- System.Decimal as decimal
+- System.Boolean as bool
+- System.Char as char
+- System.Object as object
+- System.String as string
