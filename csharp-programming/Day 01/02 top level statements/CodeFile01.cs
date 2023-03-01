@@ -1,6 +1,6 @@
 ﻿int a = 1, b = 2, c = 0;
 c = a + b;
-System.Console.WriteLine("c = {0}", c);
+Console.WriteLine("c = {0}", c);
 
 /*
  * Starting in C# 9, you don't have to explicitly include a Main method in a console application project.
