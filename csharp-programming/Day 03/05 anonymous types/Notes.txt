@@ -1,0 +1,2 @@
+﻿For more information visit to the following link:
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/anonymous-types
