@@ -46,3 +46,11 @@
         }
     }
 }
+
+/*
+ * C# does not support const methods, properties, or events.
+ * Constants are accessed as if they were static fields because
+ * the value of the constant is the same for all instances of the type.
+ * You do not use the static keyword to declare them.
+ * 
+ */
