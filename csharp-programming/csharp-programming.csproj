@@ -18,12 +18,27 @@
 
   <ItemGroup>
     <Compile Remove="Day 01\**" />
+    <Compile Remove="Day 02\**" />
+    <Compile Remove="Day 03\**" />
+    <Compile Remove="Day 04\**" />
+    <Compile Remove="Day 05\**" />
+    <Compile Remove="Day 06\**" />
     <EmbeddedResource Remove="Day 01\**" />
+    <EmbeddedResource Remove="Day 02\**" />
+    <EmbeddedResource Remove="Day 03\**" />
+    <EmbeddedResource Remove="Day 04\**" />
+    <EmbeddedResource Remove="Day 05\**" />
+    <EmbeddedResource Remove="Day 06\**" />
     <None Remove="Day 01\**" />
+    <None Remove="Day 02\**" />
+    <None Remove="Day 03\**" />
+    <None Remove="Day 04\**" />
+    <None Remove="Day 05\**" />
+    <None Remove="Day 06\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Day 01\13 string interpolation\CodeFile01.cs" />
+    <Compile Include="Day 06\03 errors and exceptions\01 throwing exception\CodeFile02.cs" />
   </ItemGroup>
 
 </Project>
