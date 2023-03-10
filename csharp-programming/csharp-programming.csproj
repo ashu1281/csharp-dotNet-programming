@@ -38,7 +38,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Day 06\02 generics\05 action func predicate generic delegates\" />
+    <Folder Include="Day 06\" />
   </ItemGroup>
 
 </Project>
