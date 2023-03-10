@@ -4,8 +4,10 @@ namespace csharp_programming
 {
     internal class DummyDerived : DummyBase
     {
-        public DummyDerived() {
-            Console.WriteLine("From DummyDerived Constructor");
+        public override void Print()
+        {
+            Console.WriteLine("From DummyDerived print");
+
         }
     }
 }

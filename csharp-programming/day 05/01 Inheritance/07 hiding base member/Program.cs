@@ -4,8 +4,10 @@
     {
         public static void Main(string[] args)
         {
-            using (DummyDerived d = new DummyDerived()) ;
+            DummyDerived b = new DummyDerived();
+            b.Print(); //calls DummyDerived.Print()
+
+          
         }
     }
 }
-

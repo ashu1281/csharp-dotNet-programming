@@ -1,36 +1,47 @@
-<<<<<<< Updated upstream
-﻿using System;
-
-namespace csharp_programming.day_05._01_Inheritance._01_basic_class_inheritance_syntax
-=======
-<<<<<<< HEAD
 ﻿namespace csharp_programming
->>>>>>> Stashed changes
 {
-    internal class DummyBase
+    internal class DummyBase : IDisposable
     {
-        private int i;
-        public DummyBase(int i)
-        {
-            this.i = i;
-        }
-    }
-}
-<<<<<<< Updated upstream
-=======
-=======
-﻿using System;
+        private bool disposed;
 
-namespace csharp_programming.day_05._01_Inheritance._01_basic_class_inheritance_syntax
-{
-    internal class DummyBase
-    {
-        private int i;
-        public DummyBase(int i)
+        public DummyBase()
         {
-            this.i = i;
+            Console.WriteLine("From Base Constructor");
+        }
+
+        ~DummyBase()
+        {
+            this.Dispose(false);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            Console.WriteLine("From DummyBase.Dispose");
+
+            if (!this.disposed)
+            {
+                if (disposing)
+                {
+                    // Dispose managed resources here, if any
+                }
+
+                // Dispose undisposed unmanaged resources here
+                this.disposed = true;
+            }
+        }
+
+        public void Dispose()
+        {
+            this.Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        public void Foo()
+        {
+            if (this.disposed)
+            {
+                throw new ObjectDisposedException("DummyBase");
+            }
         }
     }
 }
->>>>>>> master
->>>>>>> Stashed changes

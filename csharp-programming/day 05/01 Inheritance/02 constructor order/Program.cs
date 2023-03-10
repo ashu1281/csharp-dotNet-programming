@@ -1,14 +1,4 @@
-<<<<<<< Updated upstream
-﻿
-using csharp_programming.day_05._01_Inheritance._01_basic_class_inheritance_syntax;
-=======
-<<<<<<< HEAD
 ﻿using System;
-=======
-﻿
-using csharp_programming.day_05._01_Inheritance._01_basic_class_inheritance_syntax;
->>>>>>> master
->>>>>>> Stashed changes
 
 namespace csharp_programming
 {
@@ -16,13 +6,7 @@ namespace csharp_programming
     {
         public static void Main(string[] args)
         {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 
-=======
->>>>>>> master
->>>>>>> Stashed changes
             DummyDerived d = new DummyDerived();
         }
     }

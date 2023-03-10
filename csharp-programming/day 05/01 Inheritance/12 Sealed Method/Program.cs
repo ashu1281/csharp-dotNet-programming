@@ -4,8 +4,12 @@
     {
         public static void Main(string[] args)
         {
-            using (DummyDerived d = new DummyDerived()) ;
+            DummyBase b = new DummyDerived();
+            b.Print(); 
         }
     }
 }
 
+/*
+ * Sealed method cannot be overriden further.
+ */
