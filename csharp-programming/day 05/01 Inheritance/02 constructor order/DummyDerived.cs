@@ -1,5 +1,14 @@
+<<<<<<< Updated upstream
 ﻿using csharp_programming.day_05._01_Inheritance._01_basic_class_inheritance_syntax;
 using System;
+=======
+<<<<<<< HEAD
+﻿using System;
+=======
+﻿using csharp_programming.day_05._01_Inheritance._01_basic_class_inheritance_syntax;
+using System;
+>>>>>>> master
+>>>>>>> Stashed changes
 
 namespace csharp_programming
 {
