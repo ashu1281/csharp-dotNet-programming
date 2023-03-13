@@ -26,6 +26,6 @@
 }
 
 /*
- * Defualt implementation of Equals Compare object by address.
+ * Defualt implementation of Equals Compare object by address. not by value.
  * Hence Equals return false, If two distinct object have same value.
  */
