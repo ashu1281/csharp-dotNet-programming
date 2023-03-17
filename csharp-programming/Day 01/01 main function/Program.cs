@@ -1,9 +1,9 @@
 ﻿namespace csharp_programming {
     internal class Program {
-        public static int Main(string[] args) // an entry point function
+        public static void Main(string[] args) // an entry point function
         {
             Console.WriteLine("Hello, World");
-            return 10000;
+            
         }
     }
 }

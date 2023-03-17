@@ -1,0 +1,44 @@
+﻿What is Task Parallel Library?
+Task Parallel Library (TPL) is a component of the .NET Framework that provides
+a simple and efficient way to perform parallel processing tasks.
+
+TPL enables developers to write parallel code without having to manage threads
+directly, by using constructs such as Task, Parallel.For, and Parallel.ForEach.
+
+It provides abstractions over low-level threading primitives such as threads and locks.
+
+TPL uses a work-stealing scheduler that distributes tasks across threads, maximizing
+the utilization of all available resources. The scheduler also manages the creation and
+destruction of threads.
+
+What is work stealing scheduler?
+In a work-stealing scheduler, each thread maintains a deque (double-ended queue) of
+tasks that need to be executed. When a thread completes its own tasks, it can steal
+a task from the deque of another thread that still has work to do.
+
+The advantage of this approach is that it minimizes idle time for each processor,
+since each thread is always working on a task. It also helps to balance the workload
+across all available processors, so that no one processor is overloaded while others
+are idle.
+
+Additionally, a work-stealing scheduler can adapt to changing workloads by dynamically
+adjusting the number of threads used to perform the work. This helps to optimize the
+use of available resources and maximize the overall throughput of the system.
+
+Which are the important assemblies of TPL?
+The main assemblies that contain TPL are:
+System.Threading.Tasks.dll
+System.Threading.Tasks.Extensions.dll
+System.Threading.dll
+System.Runtime.dll
+mscorlib.dll
+
+Above assemblies contain base types and interfaces required for TPL.
+
+Where are these assemblies physically stored on a Windows system?
+C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.x
+
+
+
+
+

@@ -24,43 +24,49 @@
     <Compile Remove="Day 04\**" />
     <Compile Remove="Day 05\**" />
     <Compile Remove="Day 06\**" />
-    <Compile Remove="Day 07\01 unsafe\**" />
-    <Compile Remove="Day 07\02 dynamic\**" />
-    <Compile Remove="Day 07\03 boxing unboxing\**" />
-    <Compile Remove="Day 07\04 Collections\**" />
+    <Compile Remove="Day 07\**" />
+    <Compile Remove="Day 08\**" />
+    <Compile Remove="Day 09\**" />
+    <Compile Remove="Day 10\**" />
+    <Compile Remove="obj\**" />
     <EmbeddedResource Remove="Day 01\**" />
     <EmbeddedResource Remove="Day 02\**" />
     <EmbeddedResource Remove="Day 03\**" />
     <EmbeddedResource Remove="Day 04\**" />
     <EmbeddedResource Remove="Day 05\**" />
     <EmbeddedResource Remove="Day 06\**" />
-    <EmbeddedResource Remove="Day 07\01 unsafe\**" />
-    <EmbeddedResource Remove="Day 07\02 dynamic\**" />
-    <EmbeddedResource Remove="Day 07\03 boxing unboxing\**" />
-    <EmbeddedResource Remove="Day 07\04 Collections\**" />
+    <EmbeddedResource Remove="Day 07\**" />
+    <EmbeddedResource Remove="Day 08\**" />
+    <EmbeddedResource Remove="Day 09\**" />
+    <EmbeddedResource Remove="Day 10\**" />
+    <EmbeddedResource Remove="obj\**" />
     <None Remove="Day 01\**" />
     <None Remove="Day 02\**" />
     <None Remove="Day 03\**" />
     <None Remove="Day 04\**" />
     <None Remove="Day 05\**" />
     <None Remove="Day 06\**" />
-    <None Remove="Day 07\01 unsafe\**" />
-    <None Remove="Day 07\02 dynamic\**" />
-    <None Remove="Day 07\03 boxing unboxing\**" />
-    <None Remove="Day 07\04 Collections\**" />
+    <None Remove="Day 07\**" />
+    <None Remove="Day 08\**" />
+    <None Remove="Day 09\**" />
+    <None Remove="Day 10\**" />
+    <None Remove="obj\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Day 07\05 lambda expression\CodeFile02.cs" />
-    <Compile Remove="Day 07\05 lambda expression\CodeFile03.cs" />
+    <Compile Remove="ArrayExtensions.cs" />
+    <Compile Remove="Calculator.cs" />
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="System.Data.Common" Version="4.3.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\MathClassLibrary\MathClassLibrary.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Day 07\05 lambda expression\" />
   </ItemGroup>
 
 </Project>
